@@ -4,11 +4,13 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
-body,
-html {
-    width: 100%;
-    height: 100%;
-}
+html{
+ height:100% !important;
+ min-height:100% !important;
+ }
+body{
+ min-height:100% !important;
+ }
 
 body,
 h1,
@@ -36,7 +38,7 @@ h6 {
     text-align: center;
     color: #f8f8f8;
     background: url(../img/intro-bg.jpg) no-repeat center center;
-    background-size: cover;
+    background-size: cover !important;
 }
 
 .intro-message {
