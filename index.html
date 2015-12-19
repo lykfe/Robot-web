@@ -10,10 +10,20 @@
     <meta name="author" content="">
 
     <title>RobotYelp</title>
+    <!-- jQuery -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js" ></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js" ></script>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    
     <!-- Custom CSS -->
     <link href="css/landing-page.css" rel="stylesheet">
 
@@ -27,6 +37,11 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+
+    <!-- extra JS -->
+    <script type="text/javascript" src="js/animatescroll.js" ></script>
+    <script type="text/javascript" src="js/project.js" ></script>
 
 </head>
 
@@ -52,7 +67,7 @@
                         <a href="#about">About</a>
                     </li>
                     <li>
-                        <a href="#services">Services</a>
+                        <a href="#services" class="services">Services</a>
                     </li>
                     <li>
                         <a href="#contact">Contact</a>
@@ -99,7 +114,7 @@
 
     <!-- Page Content -->
 
-	<a  name="services"></a>
+	<div id="services"></div>
     <div class="content-section-a">
 
 <div class="container">
@@ -124,7 +139,7 @@
                     <p class="lead">This site was made with the intention of documenting the progress of one particular team, 3734B, in the VEX Robotics Competition! As you can see in <a target="_blank" href="http://join.deathtothestockphoto.com/">Our photo</a>, one of our dedicated members is preparing for the Winter Regional Competitions! </p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/ipad.png" alt="">
+                    <img class="img-responsive" src="img/ipad.png" alt="" id = "popover" tabindex="0" class="btn btn-lg btn-danger" role="button" data-toggle="popover" data-trigger="hover" title="Dismissible popover" data-content="And here's some amazing content. It's very engaging. Right?">
                 </div>
             </div>
 
@@ -174,7 +189,7 @@
     </div>
     <!-- /.content-section-b -->
 
-    <div class="content-section-a">
+    <div class="content-section-c">
 
         <div class="container">
 
@@ -287,11 +302,7 @@
     </footer>
 -->
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
 
 </body>
 
