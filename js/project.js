@@ -8,5 +8,5 @@ $(document).ready(function(){
 	    $(target).animatescroll();
 	});
 
-	$("#popover").popover();
+	$(".picture").popover();
 });
